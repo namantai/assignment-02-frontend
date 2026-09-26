@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2 - Page Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Brbr</a>
+            <nav class="main-nav" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="task1.html">Task 1</a>
+                <a class="active" aria-current="page" href="task2.html">Task 2</a>
+                <a href="task3.html">Task 3</a>
+                <a href="task4.html">Task 4</a>
+            </nav>
+        </div>
+    </header>
+    <div class="layout-page">
+        <header class="layout-header">
+            <h1>Grid Areas Layout</h1>
+            <p>A simple page organized with CSS Grid.</p>
+        </header>
+        <aside class="layout-sidebar">
+            <h2>Sidebar</h2>
+            <ul>
+                <li>Overview</li>
+                <li>Resources</li>
+                <li>Contact</li>
+            </ul>
+        </aside>
+        <main class="layout-main">
+            <h2>Main Content</h2>
+            <p>This area is placed to the right of the sidebar using the <code>main</code> grid area.</p>
+            <p>Grid template areas make each section easy to understand and arrange.</p>
+        </main>
+        <footer class="layout-footer">
+            <p>Task 2 &copy; Grid practice</p>
+        </footer>
+    </div>
+</body>
+</html>
