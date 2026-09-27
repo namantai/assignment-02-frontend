@@ -17,12 +17,4 @@ A simple university project demonstrating Flexbox and CSS Grid layouts with clea
 
 ## How to Open
 
-Open `index.html` in a web browser, then use the navigation bar to visit each task page.
-
-You can also start a simple local server from the project folder:
-
-```bash
-python3 -m http.server 8000
-```
-
-Then open `http://localhost:8000` in your browser.
+Open `index.html` in a web browser
