@@ -1,20 +1,22 @@
 # Assignment 2 — Advanced CSS
 
-A simple university project demonstrating Flexbox and CSS Grid layouts with clean, responsive HTML pages.
+A university frontend assignment demonstrating Flexbox and CSS Grid.
 
 ## Tasks
 
-- **Task 0:** Navigation bar using Flexbox
-- **Task 1:** Equal-height card row using Flexbox
-- **Task 2:** Page layout using CSS Grid Areas
-- **Task 3:** Responsive image gallery using CSS Grid
-- **Task 4:** Portfolio page combining Flexbox and Grid
+- Task 0 — Navigation Bar
+- Task 1 — Card Row
+- Task 2 — Grid Areas Layout
+- Task 3 — Image Gallery
+- Task 4 — Portfolio Page
 
 ## Technologies
 
 - HTML5
 - CSS3
+- Flexbox
+- CSS Grid
 
-## How to Open
+## How to run
 
-Open `index.html` in a web browser
+Open `index.html` in a web browser.

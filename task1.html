@@ -8,8 +8,10 @@
 </head>
 <body>
     <header class="site-header">
-        <div class="nav-container">
-            <a href="index.html" class="logo">Brbr</a>
+        <div class="navbar container">
+            <a href="index.html" class="logo" aria-label="Flexgrid 02 home">
+                <span>FLEXGRID</span><small>02</small>
+            </a>
             <nav class="main-nav" aria-label="Main navigation">
                 <a href="index.html">Home</a>
                 <a class="active" aria-current="page" href="task1.html">Task 1</a>
@@ -19,34 +21,28 @@
             </nav>
         </div>
     </header>
-    <main class="card-page">
-        <h1>Explore New Ideas</h1>
+    <main class="container">
+        <div class="page-heading">
+            <p class="eyebrow">Task 01 / Flexbox</p>
+            <h1>Card Row</h1>
+        </div>
         <section class="card-row" aria-label="Featured topics">
             <article class="card">
                 <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=700&q=80" alt="Bright modern workspace">
-                <div class="card-content">
-                    <h2>Creative Space</h2>
-                    <p>Discover a calm space that helps ideas grow and keeps work focused.</p>
-                    <a class="card-button" href="#">Read more</a>
-                </div>
+                <div><h2>Creative Space</h2><p>Discover a calm space that helps ideas grow and keeps work focused.</p><a class="button" href="#">Read more</a></div>
             </article>
             <article class="card">
                 <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=700&q=80" alt="Laptop on a desk">
-                <div class="card-content">
-                    <h2>Learn Online</h2>
-                    <p>Build useful skills with simple lessons and steady practice every day.</p>
-                    <a class="card-button" href="#">Read more</a>
-                </div>
+                <div><h2>Learn Online</h2><p>Build useful skills with simple lessons and steady practice every day.</p><a class="button" href="#">Read more</a></div>
             </article>
             <article class="card">
                 <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=700&q=80" alt="Team meeting in an office">
-                <div class="card-content">
-                    <h2>Work Together</h2>
-                    <p>Share ideas, support your team, and turn small plans into results.</p>
-                    <a class="card-button" href="#">Read more</a>
-                </div>
+                <div><h2>Work Together</h2><p>Share ideas, support your team, and turn small plans into results.</p><a class="button" href="#">Read more</a></div>
             </article>
         </section>
     </main>
+    <footer>
+        <span>Assignment 02 — Advanced CSS</span><span>Flexbox &amp; Grid</span>
+    </footer>
 </body>
 </html>

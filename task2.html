@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task 2 - Page Layout</title>
+    <title>Task 2 - Grid Areas</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="site-header">
-        <div class="nav-container">
-            <a href="index.html" class="logo">Brbr</a>
+        <div class="navbar container">
+            <a href="index.html" class="logo" aria-label="Flexgrid 02 home">
+                <span>FLEXGRID</span><small>02</small>
+            </a>
             <nav class="main-nav" aria-label="Main navigation">
                 <a href="index.html">Home</a>
                 <a href="task1.html">Task 1</a>
@@ -19,27 +21,26 @@
             </nav>
         </div>
     </header>
-    <div class="layout-page">
+    <div class="layout-page container">
         <header class="layout-header">
-            <h1>Grid Areas Layout</h1>
-            <p>A simple page organized with CSS Grid.</p>
+            <p class="eyebrow">Task 02 / Grid Areas</p>
+            <h1>Page Layout</h1>
+            <p>A clear four-area structure built with CSS Grid.</p>
         </header>
         <aside class="layout-sidebar">
-            <h2>Sidebar</h2>
-            <ul>
-                <li>Overview</li>
-                <li>Resources</li>
-                <li>Contact</li>
-            </ul>
+            <p class="eyebrow">Sidebar</p>
+            <h2>Sections</h2>
+            <ul><li>Overview</li><li>Structure</li><li>Responsive</li></ul>
         </aside>
         <main class="layout-main">
-            <h2>Main Content</h2>
-            <p>This area is placed to the right of the sidebar using the <code>main</code> grid area.</p>
-            <p>Grid template areas make each section easy to understand and arrange.</p>
+            <p class="eyebrow">Main</p>
+            <h2>Grid makes structure visible.</h2>
+            <p>The sidebar and main content sit in separate columns, while the header and footer span the full layout.</p>
+            <p>Named grid areas keep the CSS readable and make the mobile order easy to understand.</p>
         </main>
         <footer class="layout-footer">
-            <p>Task 2 &copy; Grid practice</p>
-        </footer>
+        <span>Assignment 02 — Advanced CSS</span><span>Flexbox &amp; Grid</span>
+    </footer>
     </div>
 </body>
 </html>
